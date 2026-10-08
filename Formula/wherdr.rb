@@ -14,11 +14,10 @@ class Wherdr < Formula
 
   def caveats
     <<~EOS
-      wherdr needs Herdr (https://herdr.dev) running on this machine.
-      Start it now and at every login:
-        brew services start wherdr
-      Then open http://localhost:7683 and follow the Phone step of the setup guide
-      (or run: wherdr phone). Data lives in ~/wherdr/data.
+      wherdr needs Herdr (https://herdr.dev) running on this machine. Then:
+        1. brew services start wherdr   # runs now and at every login
+        2. wherdr open                  # setup guide in your browser
+        3. Follow its Phone step to use wherdr from your phone.
     EOS
   end
 
