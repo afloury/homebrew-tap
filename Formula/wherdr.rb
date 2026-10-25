@@ -1,8 +1,8 @@
 class Wherdr < Formula
   desc "Web app and phone PWA to drive the coding agents running in Herdr"
   homepage "https://wherdr.dev"
-  url "https://github.com/afloury/wherdr/releases/download/v2.0.0/wherdr-2.0.0.tgz"
-  sha256 "b788472d7a5c57dd6698a7385ed1ba8b5aa8a15775355e32bb221bd95ef5cf1d"
+  url "https://github.com/afloury/wherdr/releases/download/v2.0.1/wherdr-2.0.1.tgz"
+  sha256 "1925e143c78a358e643ed265140ed8bd953e4cb5363b2f59cb74ada4d1662663"
   license "MIT"
 
   depends_on "node"
